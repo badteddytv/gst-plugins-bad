@@ -1,0 +1,17 @@
+.dirstamp
+aggregator
+h264parser
+isoff
+mpegvideoparser
+mpegts
+vc1parser
+vp8parser
+insertbin
+gstglcontext
+gstglmemory
+gstglupload
+gstglcolorconvert
+gstglsl
+gstglquery
+gstglheaders
+gstglmatrix

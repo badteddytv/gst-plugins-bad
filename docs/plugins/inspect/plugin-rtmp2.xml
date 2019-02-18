@@ -1,0 +1,43 @@
+<plugin>
+  <name>rtmp2</name>
+  <description>RTMP plugin</description>
+  <filename>../../gst/rtmp2/.libs/libgstrtmp2.so</filename>
+  <basename>libgstrtmp2.so</basename>
+  <version>1.14.4</version>
+  <license>LGPL</license>
+  <source>gst-plugins-bad</source>
+  <package>GStreamer Bad Plug-ins</package>
+  <origin>Unknown package origin</origin>
+  <elements>
+    <element>
+      <name>rtmp2sink</name>
+      <longname>RTMP sink element</longname>
+      <class>Sink</class>
+      <description>Sink element for RTMP streams</description>
+      <author>Make.TV, Inc. &lt;info@make.tv&gt;</author>
+      <pads>
+        <caps>
+          <name>sink</name>
+          <direction>sink</direction>
+          <presence>always</presence>
+          <details>video/x-flv</details>
+        </caps>
+      </pads>
+    </element>
+    <element>
+      <name>rtmp2src</name>
+      <longname>RTMP source element</longname>
+      <class>Source</class>
+      <description>Source element for RTMP streams</description>
+      <author>Make.TV, Inc. &lt;info@make.tv&gt;</author>
+      <pads>
+        <caps>
+          <name>src</name>
+          <direction>source</direction>
+          <presence>always</presence>
+          <details>video/x-flv</details>
+        </caps>
+      </pads>
+    </element>
+  </elements>
+</plugin>
